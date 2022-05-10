@@ -1,0 +1,111 @@
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* цвет акцента #2196F3 */
+/* белый #FFFFFF */
+/* цвет фона #E5E5E5 */
+/* цвет фона вторичный #F5F4FA */ 
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-text-color: #FFFFFF;
+    --secondary-bc-color: #F5F4FA;
+    --primary-bc-color: #E5E5E5;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Logo*/
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-part {
+    color: var(--accent-color);
+}
+
+/* Site nav*/
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav, .contacts {
+    font-weight: 500;
+}
+
+/* Contacts*/
+.contacts .link {
+    color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* Section */
+h1, h2, h3 {
+    color: var(--title-text-color);
+}
+
+.hero-title {
+    color: var(--white-text-color);
+    font-weight: 900;
+}
+
+.button.primary {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    border-color: var(--accent-color);
+}
+
+.section-title {
+    font-weight: 700;
+}
+
+
+
+
+/*Footer*/
+.logo-white {
+    color: var(--white-text-color);
+}
+
+.address .link {
+color: var(--primary-text-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+color: var(--white-text-color);
+}
+
+/*Fortfolio*/
+
+/*Filter*/
+.button.secondary {
+color: var(--title-text-color);
+background-color: var(--secondary-bc-color);
+font-weight: 500;
+}
+
+.portfolio h3 {
+    font-weight: 700;
+}
