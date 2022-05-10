@@ -44,6 +44,10 @@ ul {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .site-nav, .contacts {
     font-weight: 500;
 }
